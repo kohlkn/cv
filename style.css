@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    background-color: black;
+}
+h1 {
+    color: rgb(141, 145, 222);
+    font-family: 'Orbitron', sans-serif;
+}
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(238, 255, 55);
+}
+h3 {
+    color: rgb(117, 117, 228);
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* IMAGES */
+.headshot {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    /*float: left;*/
+}
+/* Contact Me: <a href="mailto:kkn143206@uga.edu">kkn32604@uga.edu</a> */
+.rings {
+    width: 300px;
+    margin: -300px 0px 0px 0px;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    rotate: 20deg;
+    color: blue;
+    filter:hue-rotate(225deg);
+}
+.moon {
+    width: 125px;
+    height: 100px;
+    position: flex;
+    margin: 0px 0px 0px 180px;
+}
+.space {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.star {
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 50px;
+    margin: -200px 400px 0px 0px;
+    rotate: -90deg;
+}
+.astronaut {
+    rotate: -45deg;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    right: 900px;
+    position: absolute;
+    border-radius: 10px;
+}
+.rocket {
+    rotate: 20deg;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 50px;
+    left: 800px;
+}
+.alien {
+    width: 100px;
+    height: 170px;
+}
+.earth {
+    width: 200px;
+    height: 150px;
+}
+.sun {
+    width: 100px;
+    height: 100px;
+}
+
+/* DIV */
+.top {
+    border: 100%;
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+.middle {
+    position: center;
+    padding: 100px;
+    background-color: black;
+
+}
+.bottom {
+    color: white;
+    background-color: rgb(39, 38, 38);
+
+}
+.languages {
+    column-count: auto;
+    display: inline-flex;
+}
+.leadership {
+    column-count: auto;
+    display: inline-flex;
+}
+.skills {
+    column-count: 3;
+    display: inline-flex;
+}
+
+/* LANGUAGE DIV */
+p.langim {
+    float: left;
+}
+ul.list {
+    text-align: left;
+}
+
+/* SKILLS DIV */
+
+
+/* HYPERLINK*/
+a.a1 {
+    color:rgb(20, 211, 20);
+    text-decoration: none;
+}
+a.a2 {
+    background-color: rgba(117, 117, 228, 0.35);
+    color: rgb(117, 117, 228);
+    border: 2px solid rgb(117, 117, 228);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.a1:hover {
+    color:rgb(13, 107, 13);
+}
+a.a2:hover {
+    background-color: rgba(117, 117, 228, 0.605);
+}
+
+/* HORIZONTAL RULE */
+hr.hr1 {
+    border: 1px dotted rgb(117, 117, 228);
+    width: 100px;
+}
+hr.hr2 {
+    border: 2px solid rgb(238, 255, 55);
+    margin-top: -22px;
+}
+
+
