@@ -108,7 +108,7 @@ h3 {
 .bottom {
     color: white;
     background-color: rgb(39, 38, 38);
-
+    font-size: 20px;
 }
 .languages {
     column-count: auto;
