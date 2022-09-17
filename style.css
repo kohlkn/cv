@@ -118,6 +118,11 @@ h3 {
     column-count: 3;
     display: inline-flex;
 }
+.contact {
+    column-count: 2;
+    column-gap: 0.002em;
+    display: inline-block;
+}
 
 /* LANGUAGE DIV */
 p.langim {
