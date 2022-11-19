@@ -136,9 +136,23 @@ ul.list {
 }
 
 /* SKILLS DIV */
-
+dt.sl {
+    color: rgb(251, 251, 118);
+}
+dd {
+    text-align: left;
+    font-size: 20px;
+}
 
 /* HYPERLINK*/
+.email {
+    text-decoration: none;
+    color: rgb(117, 117, 228)
+}
+.email:hover {
+    color: rgba(129, 129, 249, 0.549);
+}
+
 a.a1 {
     color:rgb(20, 211, 20);
     text-decoration: none;
